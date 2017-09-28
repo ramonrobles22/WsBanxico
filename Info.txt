@@ -1,0 +1,6 @@
+-El documento PDF describe los pasos a realizar para completar la consulta de los datos. 
+-Usando openssl se logro recuperar la llave privada sin contraseña, para asi poder generar la firma que se incluye en el request
+-El detalle esta en el punto 4, que es donde se descifra el XML de respuesta con la llave privada, debido a que no conseguimos obtener la cadena en hexadecial de 32 byts que ahi menciona :(
+
+
+Incluyo las clases que se ocuparon para generar la firma (RSATest) y con la que tratamos de descifrar la respuesta (RSAPKCS1). En el zip, se encuentran las llaves que nos fueron proporcionadas.

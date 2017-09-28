@@ -1,0 +1,17 @@
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Body>
+      <ns2:consultarTransaccionResponse xmlns:ns2="http://ws.dsp.banxico.org/">
+         <RespuestaConsultaTransaccional>
+            <cliente>t</cliente>
+            <codigoRespuesta>0</codigoRespuesta>
+            <cveCifrada>smwmPmnHapMxapcKT2pN5n+rAKjAkj6iDySjNzPhZb/0e6TDcm2kJ3NVuJG72CLYA92XRLIFtSrjTatQt8Db/of4Rur8LETvj2+QdDLh83/KPaxwhrNJadE/KOZl9CvliqXszE4CWQlzG2d1VHtc63auC7+dueHGLMIIP0Am5JPo6fIUrJW0W5xjQiq7fPWQODv0OsWDkw0UZxVGz3lLzNHQ8JAieeZVRcwPRF1HkIazri9i954HyVCzzMQj+ezswk6ru0+LdkGcIeDQSm17U/Lfc01AIRZpoBkjh3HBv7J7fFAvH6e7M1d39tOYwFsaAJDpFsUZWvcLm+SvCttQjg==</cveCifrada>
+            <fechaHora>28/09/2017 11:46:16</fechaHora>
+            <firma>DDQN+oEUTMmBf6ggVfs38//IAGakUN9pOy5nOT8gpLBHFFHbd247IPk4VZQVzCS/z7T7CaCv9clhMLWnnyvHxa3h+7r1sOw9wxFmAoG2buGTH+95wg6ijvcclIVVrvAKg8x+u9UUREJejM4RZnRI7nZMtFHgtLosCv9pu5Uhn3Tno/iaCgXtBKfZGFawEjPe2Fo1hX7WJvRwcUjdk68XhikPw32toQDZkiwQK9THpyprbuJKHnewcNucWjzJESrHozcIYTTVNdIuHqg8EEtEiHp3VAWY0gp0D63s5jV+RyQrx6dHNHdyR/04BARLBjOndGtd9w==</firma>
+            <infoFirmado>SHA256withRSA</infoFirmado>
+            <mensajeRespuesta>Consulta exitosa.</mensajeRespuesta>
+            <numSerieCrt>00000100000100012116</numSerieCrt>
+            <xmlCifrado>QEk/BcdjIrKQyCq67nuYwWepAKYDzDNT85SXdjh7ULVmKs+vGGFAKB6nM3MndZFKru4W9m7e/fbxhoNDS+zo0eTPUVqSJwdlwuWEOO2/06S3z7/0TAQrwrzXIYFtbZY/XFBBzIzw5HFU4WCtiHUZgGu8b5bQrScibmClfIghLobLaC9gYFZh4keuVbpSBlYjXQWh4I+weqRwxnf4yrU7duxKF2JnnmkDDrvs5UKIWthIhVMRTcSCWsWcRHmCGi6Ycql5oc6smBohYJQhUaNFeVYrlt/cVp3jpV3mDySkVheZsRoIyIXnlg9Cfjxi/K8NhASe+bGEpl6NHDM9QRzLcmsH2IB4Zsu2tRg711o3ZUY9PS4v8h727qAPJ40Co5FAh7h3u2dP+Uj4SaVvMQ8eReH8OvCh3rVRf+MhThUz8aJKNK+hIkD2vPRph9i5BRkElxp8aMh02TBTWYSRZmBiX8Q5urVLdFDkFn0SqFl/ZNIc2ipVJlDIEFMr8ZZQDCqbXHxZoiKOqqwsHPO8FrhliQf2J31Mw4az9jQADXk0BjM6XD45Cqz+sWjAKis4n4Xr1zM9hCylNKxbNQhUgl75iyn3kiKQAX3ysniTMk/KXGxxUMYqhLs/r08oCw7bXR9IfAA692IbgPYkpejYW7+T9Lc7SUZ4yZInO8VONRIOo8CeuUK9WhbJkYNJLG29ok9sk9W0FvPflP3fYOHLBDAeOwG7MjjoEq99NfBH/tax/bAgXy2BGsAuSjsnyFK1mZAoO2fBLzrg6Ju5ACUkoZQyYt+RkGC9GC1tjvnd5QVxEgONeRkkU5PsIOEKsmWKD1F41xvuf9zK3RdYMsJ/vjPKq5GJuHSEWzebkuL4SdqsUcM/t73vF2A6oOmiUKQD4WaakDPmXoHTlIl86KIgDaYbADRr/UDrZJGggAuxM5b8nqyteIWCr1SAHXqVWAO6UmMcv1FOhtLXET5MvMPGMXEPg0eyVm5Z/19q+EmNAEb0Yr0Jmx/mvVQp2M4syYvz7UVjqEMRT3UYy93zbPutdn4vhEKebpmD/orb3iEQrxDtXB216xehK99oYvAb+w8o6Iy3HLaffpq5KJ+JRHVtD+xn6vjVpSWS+8CqgE1ICt1fFOR0T1l6nKksWvJDIkgtgwvsepeSnE38m9OQfxdc+ePgxqvoR/oohxx8PsLxphN1gw0l0ZGseXW5gNnAQt7X4v5Vnrajxr4/tY6ZNWpMPwo3YwAFh+eDORVEAzPTFPmMURa9qI6Zft7Vte3Z83COiPnP2vU451QHYJJNCrYfrl4cPlcn5p+K6dXy0Ti1Fnt4JubgNS32ZsitpW4umHjpyJuRPFdK9VZxgtMHFdGW9YJCtaWhoMz+MVL2jmaUjYBMeEeifeZ2NUjZ9IWQNT71h6MWaulVn0frTo8pfTEHjY352Tz2RMlaCdLdGYxr4FaoA82id+3awL0rd8ThJowTkMEbtzTPyrUqnkMBAgantXDZ1fuVUagNXSPl5JOHJQzm4wA+o2kHwrmndPwNgh3ASYBQel5aFLxp/jWUDQTuEgbKuxX+adyGdyJ3mVfoqleddcI3riIHoDfj0p8k7JN6i0Hc2NMrsCKoxv4MYtenGGlnIZaB3LyaeKXYaKi/SgCJluRF1WA5ji/Ah6Adx2FW3m0glYzWB/7694+jjnUkR84cfA==</xmlCifrado>
+         </RespuestaConsultaTransaccional>
+      </ns2:consultarTransaccionResponse>
+   </S:Body>
+</S:Envelope>

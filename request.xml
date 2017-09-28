@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.dsp.banxico.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:consultarTransaccion>         
+         <fechaHora>28/09/2017 11:44:49</fechaHora>         
+         <idUsuario>LAURA TOLEDO GUZMAN</idUsuario>         
+         <identificador>BEL090908DWFR7</identificador>         
+         <tipoPersona>moral</tipoPersona>         
+         <numSerieCrt>00000100000100012116</numSerieCrt>         
+         <infoFirmado>SHA256withRSA</infoFirmado>         
+         <firma>kmnd/NFzgr7b/7+KwQ9f67UGP2HEOKE5KwvHfhiv+Foe9eKFKQaxI9nShtx0o5Gy5N6rG/Dvhaq36H/NqteMIqn0ITqunrIHQzBHlvgPJ9SlM4LD/gx2wB+Bp57NR2MuNolm3eG4KhSZ/VzZuo/gNzRlNwUdJCkji0ZE2tK4HwNSH7pX6+CObQXNTyV+aKG88Nnr3bJj5KiNZFNaXM72OfF6Tp9TWHFVd1gfOJQVIHHYNzS6jJN81KG/9SAB3tle+zbrb1t51K4UtvsxQVIEcS8zNsQ2AU791yT9CNqduoDb/nGONj1eVmWxuBPkwWZCY2GrVwbbwEwrWA5597VU6w==</firma>
+      </ws:consultarTransaccion>
+   </soapenv:Body>
+</soapenv:Envelope>
